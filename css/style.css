@@ -1,0 +1,199 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap");
+body {
+  font-family: "Inconsolata";
+  color: #000; }
+
+._container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0px 10px; }
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+/* Обнуляющий список */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+nav, footer, header, aside {
+  display: block; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input, button, textarea {
+  font-family: inherit; }
+
+input:-ms-clear {
+  display: none; }
+
+button {
+  cursor: none; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a, a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400; }
+
+.stopWatch {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/etienne-swanepoel-sBJsRLOgt_U-unsplash.jpg") center/cover no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative; }
+  .stopWatch__title {
+    font-size: 42px;
+    font-weight: 700;
+    color: #9f301d;
+    margin: 0px 0px 30px 0px; }
+  .stopWatch__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0px 0px 30px 0px; }
+
+.block {
+  margin: 0 25px;
+  font-size: 18px;
+  color: #a96e12; }
+  .block__time {
+    margin: 0px 0px 5px 0px;
+    font-size: 25px;
+    letter-spacing: 2px; }
+  .block__title {
+    letter-spacing: 5px; }
+
+.button {
+  background-color: #9f301d;
+  color: white;
+  padding: 20px 50px;
+  border-radius: 3px 3px 15px 15px;
+  cursor: pointer;
+  margin: 0px 20px 0px 0px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  -webkit-transition: .2s all ease-in-out;
+  transition: .2s all ease-in-out;
+  font-weight: 700; }
+  .button:last-child {
+    margin: 0px 0px 0px 0px; }
+  .button:hover {
+    background-color: #a96e12; }
+  .button._active {
+    background-color: #a96e12; }
+
+.stopWatch__results {
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 2px solid #9f301d; }
+
+.stopWatch__cleansing {
+  position: absolute;
+  right: 220px;
+  top: 10px; }
+  .stopWatch__cleansing button {
+    background-color: #9f301d;
+    color: white;
+    padding: 12px 35px;
+    border-radius: 3px 3px 15px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 5px;
+    -webkit-transition: .2s all ease-in-out;
+    transition: .2s all ease-in-out;
+    font-weight: 700; }
+    .stopWatch__cleansing button:hover {
+      background-color: #a96e12; }
+
+.results__title {
+  font-size: 25px;
+  color: #a96e12; }
+
+.spanTitle {
+  margin: 5px 0px;
+  font-size: 18px; }
+
+.results__res {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.page {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto; }
+
+.page {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto; }

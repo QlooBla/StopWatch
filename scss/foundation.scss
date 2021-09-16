@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+
+$fontFamily: "Inconsolata";
+$mainColor: #000;
+body {
+    font-family: $fontFamily;
+    color: $mainColor;
+}
+
+//<Контейнер>
+$container: 800;
+._container {
+    max-width: $container + px;
+    margin: 0 auto;
+		padding: 0px 10px;
+}
+
+
+
+
+
+.wrapper {
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+//<ПОДКЛЮЧЕНИЕ ФАЙЛОВ SCSS>======================================================================
+@import "nullcss.scss";
+@import "main.scss";
+
+
+.page {
+	flex: 1 1 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page {
+	flex: 1 1 auto;
+}
+
